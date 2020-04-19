@@ -1,0 +1,121 @@
+*
+{
+	margin: 0;
+	padding: 0;
+}
+h1
+{
+	color: black;
+	text-transform: uppercase;
+	text-align: center;
+	margin-top: 100px;
+	font-family: "Courier New",monospace;
+}
+.backimg
+{
+	background-image:url(architecture.jpg);
+	height: 100vh;
+	background-size: cover;
+	background-position: center;
+}
+.menu{
+	width: 100%;
+	height:110px;
+	background-color: rgba(0,0,0,0.4);
+}
+
+			
+.leftmenu{
+
+	width: 30%;
+	float: left;
+	margin-top: 10px;
+
+}
+.leftmenu h2{
+	padding-left: 70px;
+	font-weight: bold;
+	color: white;
+	font-size: 45px;
+
+}
+.rightmenu {
+	width: 50%;
+	height: 100px;
+	float: right;
+	padding-top:40px;
+}
+.rightmenu ul{
+	position: absolute;
+	padding: 0px; 
+}
+.rightmenu ul li{
+	font-size: 20px;
+	color: white;
+	width: 100px;
+	font-weight: bold;
+	margin-left: 40px;
+	text-transform: uppercase;
+	list-style: none; 
+	display: inline-block;
+	padding: 0px;
+}
+.rightmenu ul li ul
+{
+	display: none;
+	width: 0px;
+	padding: 0px;
+	list-style: none;
+}
+.rightmenu ul li:hover >ul
+{
+	display: block;
+	color: black
+}	
+.rightmenu ul li:hover{
+	color: black;
+}
+.card {
+  /* Add shadows to create the "card" effect */
+ 	box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+ 	transition: 0.3s;
+ 	border-radius: 20px;
+ 	left: 20px;
+	margin-top: 50px;
+	margin-bottom: 20px;
+}
+
+/* On mouse-over, add a deeper shadow */
+.card:hover {
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+}
+.cards {
+  /* Add shadows to create the "card" effect */
+ 	box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+ 	transition: 0.3s;
+ 	left: 20px;
+ 	border-radius: 10px;
+ 	border-color: white;
+	margin-top: 100px;
+	margin-bottom: 20px;
+}
+
+/* On mouse-over, add a deeper shadow */
+.cards:hover {
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+  transform: translate(0px,-10px);
+}
+
+/* Add some padding inside the card container */
+.container {
+  background-color: #61605F;
+  background-size: cover;
+}
+img {
+  border-radius: 5px 5px 0 0;
+}
+.card-title
+{
+	font-size: 20px;
+	font-family: "Courier New",monospace;
+}
